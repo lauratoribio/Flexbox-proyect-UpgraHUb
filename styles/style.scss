@@ -1,0 +1,24 @@
+@import "./variables";
+@import "./nav";
+@import "./footer";
+@import "./section1";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $softPink;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
